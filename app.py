@@ -1,7 +1,6 @@
 from flask import Flask
 from PIL import Image, ImageOps
 from numpy import asarray
-from Yolo.yolo_detection_images import detectWifiRouter
 import numpy as np
 import librosa
 #from keras.models import load_model
