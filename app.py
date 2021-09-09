@@ -76,5 +76,5 @@ def detect():
 #app.run()
 #host="0.0.0.0"
 if __name__ == "__main__":
-    #loadmodel()
-    app.run()
+    loadmodel()
+    app.run(debug=True)
